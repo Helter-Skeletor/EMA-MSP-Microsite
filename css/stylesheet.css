@@ -7,8 +7,7 @@ Author: Martin Droge
 
 /* =========== General =========== */
 
-.siteWrap {
-    width: 100%;
+body {
     font-family: Arial;
 }
 .logoWrap {
@@ -38,9 +37,11 @@ img.topImage {
     width: 50%;
 }
 .contentWrap h1 {
+    font-size: 36px;
     position: absolute;
-    width: 45%;
-    margin: 2em 1em 1em 14em;
+    width: 300px;
+    font-weight: 100;
+    margin: 1em 1em 1em 13em;
 }
 .buttons {
     padding-top: 1em;
@@ -58,15 +59,6 @@ img.topImage {
     width: 180px;
     margin-left: 3em;
 }
-.buttons .emailResults {
-    
-}
-.buttons .printResults {
-    
-}
-.buttons .startOver {
-    
-}
 .buttons .help {
     float: right;
     width: 55px;
@@ -80,6 +72,10 @@ img.topImage {
     clear: both;
     padding-top: 2em;
     font-size: 22px;
+}
+.homeContent p {
+    line-height: 2;
+    font-size: 24px;
 }
 
 /* =========== Select Brands =========== */
