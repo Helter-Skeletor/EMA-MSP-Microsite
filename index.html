@@ -5,6 +5,13 @@
     <title>MSP Microsite Title</title>
     <meta name="robots" content="noindex,follow" />
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+    <script type="text/javascript" src="highslide/highslide.js"></script>
+    <link rel="stylesheet" type="text/css" href="highslide/highslide.css" />
+    <script type="text/javascript">
+        // override Highslide settings here
+        // instead of editing the highslide.js file
+        hs.graphicsDir = 'highslide/graphics/';
+    </script>
 </head>
 <body>
     <div class="siteWrap" width="100%" style="width:100%;">
@@ -22,7 +29,21 @@
             </div>
             <div class="buttons" style="padding:1em 0 0 0;">
                 <a href="select_brands"><img class="begin" src="images/Button_Begin.png" alt="" style="float:left;width:180px;" /></a>
-                <a href="help"><img class="help" src="images/Button_Help.png" alt="" style="float:right;width:55px;" /></a>
+                <a href="" class="highslide"
+                    onclick="return hs.htmlExpand(this,
+                    { contentId: 'my-content' } )">
+                    <img class="help" src="images/Button_Help.png" alt="" style="float:right;width:55px;cursor:pointer !important;border:none;" />
+                </a>
+                
+                <div class="highslide-html-content" id="my-content" style="width: 200px">
+                    <a href="#" onclick="hs.close(this)">
+                        Close
+                    </a>
+                    <div class="highslide-body">
+                        Remember to include a means of closing
+                        the expander.
+                    </div>
+                </div>
             </div>   
         </div>
     </div>
