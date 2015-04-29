@@ -5,4 +5,226 @@ Author: Martin Droge
 
 */
 
+/* =========== General =========== */
+
+.siteWrap {
+    width: 100%;
+    font-family: Arial;
+}
+.logoWrap {
+    padding: 1em 0 1em 0;
+    width: 977px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.topImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+.bannerText {
+    background: #e7eced;
+    padding: 0.5em 0 0.5em 0;
+}
+.contentWrap {
+    width: 800px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 3em;
+}
+.contentWrap img {
+    float: left;
+    width: 50%;
+}
+.contentWrap h1 {
+    position: absolute;
+    width: 45%;
+    margin: 2em 1em 1em 14em;
+}
+.buttons {
+    padding-top: 1em;
+}
+.buttons .begin {
+    float: left;
+    width: 180px;
+}
+.buttons .previous {
+    float: left;
+    width: 180px;
+}
+.buttons .next {
+    float: left;
+    width: 180px;
+    margin-left: 3em;
+}
+.buttons .emailResults {
+    
+}
+.buttons .printResults {
+    
+}
+.buttons .startOver {
+    
+}
+.buttons .help {
+    float: right;
+    width: 55px;
+    cursor: pointer; !important
+    border: none; !important
+}
+
 /* =========== Home Page =========== */
+
+.homeContent {
+    clear: both;
+    padding-top: 2em;
+    font-size: 22px;
+}
+
+/* =========== Select Brands =========== */
+
+.selectBrandsContent {
+    clear: both;
+    font-size: 22px;
+}
+.selectBrandsContent h1 {
+    position: inherit;
+    width: 100%;
+    margin: inherit;
+    font-size: 28px;
+    margin-bottom: 0;    
+}
+.selectBrandsContent p {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 0;
+}
+.selectBrandsContent form {
+    line-height: 2;
+    font-size: 19px;
+}
+.brandsButtons {
+    padding-top: 2em;
+}
+
+/* =========== Product Category =========== */
+
+.selectProductCategory {
+    clear: both;
+    font-size: 22px;
+    overflow: hidden;
+}
+.selectProductCategory h1 {
+    position: inherit;
+    margin: inherit;
+    width: 100%;
+    font-size: 28px;
+}
+.selectProductCategory form {
+    line-height: 2;
+    font-size: 13px;
+    clear: both;
+    width: 100%;
+    padding-top: 1em;
+}
+.prodCatCol {
+    float: left;
+    width: 31%;
+}
+.colPad {
+    padding-left: 1em;   
+}
+.prodCatButtons {
+    padding-top: 4em;   
+}
+
+/* =========== Fuel Type =========== */
+
+.selectFuelTypeContent {
+    clear: both;
+    font-size: 22px;
+    overflow: hidden;
+}
+.selectFuelTypeContent h1 {
+    position: inherit;
+    margin: inherit;
+    width: 100%;
+    font-size: 28px;
+}
+.selectFuelTypeContent form {
+    line-height: 2;
+    font-size: 19px;
+    padding-top: 1em;
+    overflow: hidden;
+}
+.fuelButtons {
+    padding-top: 4em;   
+}
+
+/* =========== Select Results =========== */
+
+.selectResults {
+    clear: both;
+    font-size: 22px;
+    overflow: hidden;
+}
+.selectResults h1 {
+    position: inherit;
+    margin: inherit;
+    width: 100%;
+    font-size: 28px;
+}
+.selectResults form {
+    line-height: 2;
+    font-size: 19px;
+    padding-top: 1em;
+    overflow: hidden;
+}
+.selectResultsButtons {
+    padding-top: 4em;   
+}
+
+/* =========== Top 5 Results =========== */
+
+.top5ResultsContent {
+    clear: both;
+    font-size: 22px;
+    overflow: hidden;
+}
+.top5ResultsContent h1 {
+    position: inherit;
+    margin: inherit;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 49px;
+    font-weight: 100;
+}
+.top5ResultsContent hr {
+    color: #000000;
+    background-color: #000000;
+    size: 1px;
+}
+.top5ResultsContent p {
+    text-align: center;   
+}
+.top5div {
+    width: 20%;
+    float: left;
+}
+.top5div img {
+    float: none;
+    display: block;
+    width: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.top5div p {
+    text-align: left;   
+}
+.top5buttons {
+    padding-top: 4em;   
+}
+
+/* =========== All Results =========== */
