@@ -1,0 +1,8 @@
+/* Stylesheet for printing the results page. */
+
+body {
+    visibility: hidden;
+}
+.print {
+    visibility: visible;   
+}

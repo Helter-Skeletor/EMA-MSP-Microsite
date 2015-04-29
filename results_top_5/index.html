@@ -5,9 +5,10 @@
     <title>Top 5 Results</title>
     <meta name="robots" content="noindex,follow" />
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+    <link rel="stylesheet" type="text/css" href="print.css" media="print">
 </head>
 <body>
-    <div class="siteWrap" width="100%">
+    <div class="siteWrap print" id="content" width="100%">
         <div class="logoWrap" width="977">
             <img class="topImage" src="../images/Banner_Brands.jpg" width="900" alt="" />
         </div>
@@ -42,7 +43,7 @@
             </div>
             <div class="buttons top5buttons">
                 <a href="../"><img class="emailResults begin" src="../images/Button_EmailResults.png" alt="" /></a>
-                <a href="../"><img class="printResults next" src="../images/Button_PrintResults.png" alt="" /></a>
+                <a href="#" onclick="window.print();return false"><img class="printResults next" src="../images/Button_PrintResults.png" alt="" /></a>
                 <a href="../"><img class="startOver next" src="../images/Button_StartOver.png" alt="" /></a>
                 <a href=""><img class="help" src="../images/Button_Help.png" alt="" /></a>
             </div>
