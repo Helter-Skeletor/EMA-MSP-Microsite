@@ -24,7 +24,11 @@ img.topImage {
 }
 .bannerText {
     background: #e7eced;
+    background-size: cover;
     padding: 0.5em 0 0.5em 0;
+}
+.bannerText img {
+    width: 800px;   
 }
 .contentWrap {
     width: 800px;
