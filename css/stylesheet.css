@@ -83,6 +83,7 @@ img.topImage {
 .popover a {
     text-decoration: none;
     padding-right: 20px;
+    color: #000000;
 }
 .popover p {
     text-align: left;
@@ -256,8 +257,14 @@ img.topImage {
     margin-left: auto;
     margin-right: auto;
 }
+.top5div .dottedLine {
+    width: 90%;
+    margin-left: 0;
+    margin-right: 0;
+}
 .top5div p {
-    text-align: left;   
+    text-align: left;
+    font-size: 14px;
 }
 .top5buttons {
     padding-top: 4em;   
