@@ -69,6 +69,17 @@ img.topImage {
     cursor: pointer; !important
     border: none; !important
 }
+.popover {
+    position: absolute;
+    display: none;
+    z-index: 2;
+    height: 150px;
+    width: 300px;
+    left: 600px;
+    background-color: #eaeaea;
+    border: 1px solid #cccccc;
+    border-radius: 25px;
+}
 
 /* =========== Home Page =========== */
 
@@ -80,6 +91,10 @@ img.topImage {
 .homeContent p {
     line-height: 2;
     font-size: 24px;
+}
+.popoverHome {
+    /*left: 600px;*/
+    top: 810px;
 }
 
 /* =========== Select Brands =========== */
@@ -106,6 +121,10 @@ img.topImage {
 }
 .brandsButtons {
     padding-top: 2em;
+}
+.popoverBrands {
+    /*left: 580px;*/
+    top: 570px;
 }
 
 /* =========== Product Category =========== */
@@ -138,6 +157,9 @@ img.topImage {
 .prodCatButtons {
     padding-top: 4em;   
 }
+.popoverProdCat {
+     top: 560px;
+}
 
 /* =========== Fuel Type =========== */
 
@@ -161,6 +183,9 @@ img.topImage {
 .fuelButtons {
     padding-top: 4em;   
 }
+.popoverFuel {
+    top: 510px;
+}
 
 /* =========== Select Results =========== */
 
@@ -183,6 +208,9 @@ img.topImage {
 }
 .selectResultsButtons {
     padding-top: 4em;   
+}
+.popoverSelectResults {
+    top: 510px;
 }
 
 /* =========== Top 5 Results =========== */
@@ -225,6 +253,9 @@ img.topImage {
 }
 .top5buttons {
     padding-top: 4em;   
+}
+.popoverTop5 {
+    top: 630px;
 }
 
 /* =========== All Results =========== */

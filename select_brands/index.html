@@ -5,6 +5,7 @@
     <title>Select Brands</title>
     <meta name="robots" content="noindex,follow" />
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+    <script src="../scripts/popover.js" type="text/javascript"></script>
 </head>
 <body>
     <div class="siteWrap" width="100%">
@@ -28,9 +29,13 @@
             <div class="buttons brandsButtons">
                 <a href="../"><img class="previous" src="../images/Button_Previous.png" alt="" /></a>
                 <a href="../product_category"><img class="next" src="../images/Button_Next.png" alt="" /></a>
-                <a href=""><img class="help" src="../images/Button_Help.png" alt="" /></a>
+                <a href="javascript:showPopOver('pop1');"><img class="help" src="../images/Button_Help.png" alt="" /></a>
             </div>
         </div>
+    </div>
+    <div id="pop1" class="popover popoverBrands" align="right">
+        <a href="javascript:closePopOver('pop1');" style="padding-right:20px;">X</a>
+        <p style="text-align: left;padding-left:20px;">Help content goes here!</p>
     </div>
 </body>
 </html>
